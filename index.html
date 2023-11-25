@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script
+      src="https://kit.fontawesome.com/0e722c0174.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Weather App</title>
   </head>
   <body>
@@ -19,12 +23,12 @@
             placeholder="Search for a city..."
             class="weather-search-form"
           />
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fas fa-search"></i>
         </form>
 
         <div class="units">
-          <span class="weather-units-c"></span>
-          <span class="weather-units-f"></span>
+          <span class="weather-units-c">&#176C</span>
+          <span class="weather-units-f">&#176F</span>
         </div>
       </div>
 
@@ -35,41 +39,42 @@
         <div class="weather-icon"></div>
         <p class="weather-temperature"></p>
         <div class="weather-max-min">
-          <p>Min:</p>
-          <p>Max:</p>
+          <p>Min: 12&#176</p>
+          <p>Max: 16&#176</p>
         </div>
       </div>
 
       <div class="weather-info">
         <div class="weather-card">
-          <i class="fa-solid fa-temperature-full"></i>
+          <i class="fas fa-temperature-full"></i>
           <div>
             <p>Real Feel:</p>
-            <p class="weather-realfeel"></p>
+            <p class="weather-realfeel">18&#176</p>
           </div>
         </div>
         <div class="weather-card">
-          <i class="fa-solid fa-droplet"></i>
+          <i class="fas fa-droplet"></i>
           <div>
             <p>Humidity:</p>
-            <p class="weather-humidity"></p>
+            <p class="weather-humidity">18&#176</p>
           </div>
         </div>
         <div class="weather-card">
-          <i class="fa-solid fa-wind"></i>
+          <i class="fas fa-wind"></i>
           <div>
             <p>Wind:</p>
-            <p class="weather-wind"></p>
+            <p class="weather-wind">18&#176</p>
           </div>
         </div>
         <div class="weather-card">
-          <i class="fa-solid fa-gauge-high"></i>
+          <i class="fas fa-gauge-high"></i>
           <div>
             <p>Pressure:</p>
-            <p class="weather-pressure"></p>
+            <p class="weather-pressure">18&#176</p>
           </div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
