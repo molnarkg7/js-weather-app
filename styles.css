@@ -98,3 +98,21 @@ input::placeholder {
   font-size: 1.5rem;
   margin-right: 1rem;
 }
+
+@media (max-width: 936px) {
+  .container {
+    width: 90%;
+  }
+  .weather-header {
+    flex-direction: column;
+  }
+  .weather-units {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .weather-info {
+    grid-template-columns: none;
+  }
+}
